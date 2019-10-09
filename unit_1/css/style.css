@@ -5,3 +5,11 @@ body {
 h1,p {
 	color: gold;
 }
+
+h1, h3 {
+	font-family: Arial, sans-serif;
+}
+
+h3 {
+	font-weight: bold;
+}
