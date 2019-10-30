@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap');
+
 
 body {
 	background-color: white
@@ -8,20 +10,68 @@ body {
 
 h1 {
 	color: black;
-	font-family:'Lato',Arial,sans-serif;
+	font-family: 'Averia Serif Libre';
 	font-size: 2em;
 }
 
-h1, h3 {
-	font-family: Arial, sans-serif;
+h2 {
+
 }
 
 h3 {
-	font-weight: bold;
+	color: lightgray;
+	font-family: 'Lato';
+	font-size: 1em;
 }
 
-p{
-	color: black;
-	@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+a{
+	font-family: 'Lato', Arial, sans-serif;
+	color:black;
+	font-size: 1em;
+	font-weight: black;
+}
+
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 200px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
