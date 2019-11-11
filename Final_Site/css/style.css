@@ -122,14 +122,16 @@ aside{
 
 #picture {
     background-color: black;
-    width:560px;
+    width:66.66%;
     padding: 20px 0;
     margin: 0 0 0 30px;
+    float:left;
 }
 
 #Aboutme {
+    float:right;
     background-color: red;
-    width: 100px;
+    width: 33.33%;
 }
 
 .clearfix:after {
@@ -139,5 +141,12 @@ aside{
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    nav {
+    float: none;
 }
 
