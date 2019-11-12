@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
 
 body {
 	background-color: white
