@@ -120,7 +120,7 @@ aside{
     width:300px;
 }
 
-#picture {
+#Picture {
     background-color: black;
     width:66.66%;
     padding: 20px 0;
@@ -128,7 +128,7 @@ aside{
     float:left;
 }
 
-#Aboutme {
+#AboutMe {
     float:right;
     background-color: red;
     width: 33.33%;
@@ -145,8 +145,7 @@ aside{
 
 @media only screen and (max-width: 800px) {
 
-
     nav {
-    float: none;
-}
-
+        float: none;
+    }
+]
